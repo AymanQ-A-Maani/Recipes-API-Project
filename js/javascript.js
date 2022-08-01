@@ -25,7 +25,7 @@ function displayData(){
         result+=` 
         <div class=" col-4">
             <img src="${matrix[i].image_url}" class=" w-100 h-75">
-            <a href=" ${matrix[i].source_url}" class=" btn btn-info">Source</a>
+            <a href=" ${matrix[i].source_url}" target="_blank" class=" btn btn-info">Source</a>
             <a onclick="updateDetails(${matrix[i].recipe_id})" class=" detailsBtn btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Details</a>
         </div>
         `;
